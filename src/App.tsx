@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./routes/Home";
-import HomeBody from "./components/Header/Promotion";
-import Promotion from "./components/Header/HomeBody";
+import HomeBody from "./routes/Home/HomeBody";
+import Promotion from "./routes/Home/Promotion";
 
 export default function App() {
   return (
